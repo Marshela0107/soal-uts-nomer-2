@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Kue Kesukaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6B8E23;
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .cake {
+            width: 200px;
+            height: 250px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            background-color: white;
+        }
+
+        .cake img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .cake-title {
+            padding: 10px;
+            font-size: 1.2em;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .cake1 {
+            border: 2px solid #6B8E23;
+        }
+
+        .cake2 {
+            border: 2px solid #9b59b6;
+        }
+
+        .cake3 {
+            border: 2px solid #e67e22;
+        }
+
+        .cake4 {
+            border: 2px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daftar Kue Kesukaan</h1>
+    <div class="container">
+        <div class="cake cake1">
+            <img src="kue coklat.jpg" alt="Kue Coklat">
+            <div class="cake-title">Kue Coklat</div>
+        </div>
+        <div class="cake cake2">
+            <img src="kue keju.jpg" alt="Kue Keju">
+            <div class="cake-title">Kue Keju</div>
+        </div>
+        <div class="cake cake3">
+            <img src="kue carot.jpg" alt="Kue Carrot">
+            <div class="cake-title">Kue Carrot</div>
+        </div>
+        <div class="cake cake4">
+            <img src="kue pandan.jpg" alt="Kue Pandan">
+            <div class="cake-title">Kue Pandan</div>
+        </div>
+    </div>
+</body>
+</html>
